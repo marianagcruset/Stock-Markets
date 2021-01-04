@@ -1,0 +1,12 @@
+-- Creating tables for BTC
+CREATE TABLE btc (
+	Date VARCHAR(10) NOT NULL,
+	Open VARCHAR(20) NOT NULL,
+	High VARCHAR(20) NOT NULL,
+	Low VARCHAR(20) NOT NULL,
+	Close VARCHAR(20) NOT NULL,
+	AdjClose VARCHAR(20) NOT NULL,
+	Volume VARCHAR(20) NOT NULL,
+	PRIMARY KEY (Date),
+	UNIQUE (Date)
+);
