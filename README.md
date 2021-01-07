@@ -13,7 +13,7 @@
 •	Description of the data exploration phase of the project: For the data exploration phase I created my own target variables, which was the theorical three day gain possible and I used a Histogram for analyzing the percentual frequency of gains with the daily Bitcoin price information.
 
 
-![ ](Images/Gain Horizon.png)
+![](Images/Gain Horizon.png)
 
 
 •	Description of the analysis phase of the project: Significance variables were used to see which indicators were stronger in the analysis, I also tested various values of the parameters and estimators to see which ones gave optimal results. 
