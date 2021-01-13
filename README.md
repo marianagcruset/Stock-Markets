@@ -50,3 +50,8 @@ In addition to using a Flask template, I will also integrate Plotly.
 
 
 
+
+
+https://docs.google.com/presentation/d/1XHZV6Bq3x8C4tQb6KixKTJIRPamqPALWc34JnN_c67Q/edit?usp=sharing
+
+
