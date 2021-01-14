@@ -8,7 +8,7 @@
     <div id='myDiv'><!-- Plotly chart will be drawn inside this DIV --></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <script>
-    Plotly.d3.csv(r"C:\Users\marianaga\Class\Stock-Markets\projection.csv", function(err, rows){
+    Plotly.d3.csv("https://raw.githubusercontent.com/marianagcruset/Stock-Markets/main/projection.csv", function(err, rows){
 
         function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
