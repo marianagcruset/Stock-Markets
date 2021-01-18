@@ -1,11 +1,19 @@
 
-    Plotly.d3.csv("https://raw.githubusercontent.com/marianagcruset/Stock-Markets/main/Resources/BTC.csv", function(err, rows){
+    Plotly.d3.csv("https://raw.githubusercontent.com/marianagcruset/Stock-Markets/main/updatedb.csv", function(err, rows){
 
         function unpack(rows, key) {
         return rows.map(function(row) { return row[key]; });
       }
       
-      
+      var dates_moment_formatted = []
+
+      dates = unpack(rows, 'date')
+
+      for(x in dates){
+        // console.log(moment(dates[x]).format("YYYY-M-D"))
+        dates_moment_formatted.push(moment(dates[x]).format("YYYY-MM-DD"))
+      }
+
       var trace1 = {
         type: "scatter",
         mode: "lines",
@@ -19,7 +27,7 @@
         type: "scatter",
         mode: "lines",
         name: 'BTC Close',
-        x: unpack(rows, 'date'),
+        x: dates_moment_formatted,
         y: unpack(rows, 'close'),
         line: {color: '#7F7F7F'}
       }
