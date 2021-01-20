@@ -2,9 +2,15 @@
 	<!-- Load plotly.js into the DOM -->
     <script src='https://cdn.plot.ly/plotly-latest.min.js'></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
 <body>
+    <div class="row">
+        <div class="col-md-12 jumbotron text-center">
+          <h1>BTC Analysis Dashboard</h1>
+        </div>
+      </div>
     <div class='row' >
 
         <div class='col-lg-9'>
@@ -12,7 +18,7 @@
         </div>
 
         <div class='col-lg-3'>
-            <div id='myDiv2'> <!-- Pricing data and forecasting will be inside this DIV --> <h1>BTC Dashboard Information</h1> </div>            
+            <div id='myDiv2'> <!-- Pricing data and forecasting will be inside this DIV --> <h1>Price info & forecast</h1> </div>            
         </div>
     </div>  
     
@@ -21,12 +27,18 @@
         <div class='col-lg-6'>
             <div id='myDiv3'><!-- Histogram chart will be drawn inside this DIV --></div>   
         </div>
+
+        <div class='col-lg-6'>
+            <div id='myDiv4'><!-- Box plot chart will be drawn inside this DIV --></div>   
+        </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.18.1/moment.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.js"></script>
     <script src="charts.js"></script>
     <script src="panel.js"></script>
+    <script src="histogram.js"></script>
+    <script src="bw.js"></script>
 
 
 </body>
