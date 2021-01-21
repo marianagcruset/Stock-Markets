@@ -8,12 +8,12 @@
 
 •	Source of the data: Dataset downloaded from Kaggle.
 
-•	Question I hope to answer with the data:  Giving the present moment, what is the best action to be taken? (whether is a good time to sell or buy)
+•	Question I hope to answer with the data:  Giving the present moment, what is the best action to be taken? (whether is a good time to sell or buy) - SHORT: SELLING / LONG: BUYING
 
 •	Description of the data exploration phase of the project: For the data exploration phase I created my own target variables, which was the theorical three day gain possible and I used a Histogram for analyzing the percentual frequency of gains with the daily Bitcoin price information.
 
 
-![Possible 3 Day-Gains Histogram](https://github.com/Frankie-Figz/Stock-Markets/blob/main/Images/Gain%20Horizon.png)
+![Possible 3 Day-Gains Histogram](https://github.com/marianagcruset/Stock-Markets/blob/main/Images/Gain%20Horizon.png)
 
 
 •	Description of the analysis phase of the project: Significance variables were used to see which indicators were stronger in the analysis, I also tested various values of the parameters and estimators to see which ones gave optimal results. 
